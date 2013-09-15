@@ -19,9 +19,9 @@ http.createServer(function (req, res) {
     res.write(html);
     //End the response (This sends response to client)
     res.end();
-}).listen(1337, '127.0.0.1'); // Http server at port 1337 on localhost
+}).listen(5000, '127.0.0.1'); // Http server at port 5000 on localhost
 //Log that server is running
-console.log('Server running at http://127.0.0.1:1337/');
+console.log('Server running at http://127.0.0.1:5000/');
 
 //Function to get basic html page 
 var getPageHtml = function(){
