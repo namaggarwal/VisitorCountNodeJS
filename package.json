@@ -1,0 +1,11 @@
+{
+	"name":"StartingWithNode",
+	"version":"1.0.0",
+	"dependencies":{
+
+	},
+	"engines":{
+		"node":"0.6.14",
+		"npm":"1.1.12"
+	}
+}
